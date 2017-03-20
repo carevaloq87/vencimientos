@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "co.webforpeople.employeedirectory"
+        versionCode = "1"
+        version     = "1.1.0">
+ 
+    <name>DECLARACIÓN DE RENTA</name>
+ 
+    <description>
+        Aplicacion para validar fechas de vencimientos de renta Colombianos
+    </description>
+ 
+    <author href="http://webforpeople.co/" email="carevaloq87@gmail.com">
+        Christian Arevalo
+    </author>
+ 
+</widget>
