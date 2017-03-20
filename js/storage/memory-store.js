@@ -10,7 +10,7 @@ var MemoryStore = function(successCallback, errorCallback) {
                 console.log("IN " + id);
                 break;
             } else if(id == ''){
-                vencimiento = {"id" : "" , "text" : "Ingresa dos digitos"};
+                vencimiento = {"id" : "" , "text" : "&Uacute;timos dos digitos"};
                 console.log("IN " + id);
                 break;
             }
