@@ -1,13 +1,10 @@
-# PhoneGap Workshop #
+# Vencimientos de Renta Colombia #
 
-In this tutorial, you create a fully functional employee directory application with PhoneGap. You will learn:
+Esta aplicacion se realizo con el fin de poder saber que fechas tienen vencimiento de acuerdo a los ultimos digitos de la cedula de ciudadania Colombiana.
 
-- How to use different local data storage strategies.
-- How to use several PhoneGap APIs such as Geolocation, Contacts, and Camera.
-- How to handle specific mobile problems such as touch events, scrolling, styling, page transitions, etc.
-- How to build an application using a single page architecture and HTML templates.
-- How to build (compile and package) an application for 6 platforms using PhoneGap Build.
-- To complete this tutorial, all you need is a code editor, a modern browser, and a connection to the Internet. A working knowledge of HTML and JavaScript is assumed, but you don’t need to be a JavaScript guru.
-
-Complete instructions for this tutorial are available here: http://coenraets.org/blog/phonegap-tutorial/."# phonegap-workshop-master" 
-"# vencimientos" 
+- Se utilizo el memory storage del celular para guardar los datos de las fechas de vencimiento.
+- Se utilizo PhoneGap para poder crear la app para Android.
+- Se utilizo JS y jQuery para interactuar con la interfaz y los datos en memoria.
+- Es una app single page.
+- Se utilizo PhoneGap Build para crear el archivo APK. `https://build.phonegap.com/apps/2531735`
+- No necesitas ser un Guru para poder correr esta aplicacion, solo necesitas un navegador web, un editor de texto y saber algo de JS.
