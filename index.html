@@ -1,28 +1,39 @@
-<html>
-	<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-		<script src="lib/jquery-1.8.2.min.js"></script>
-		<script src="js/storage/memory-store.js"></script>
-		<script src="js/HomeView.js"></script>
-		<script src="js/main.js"></script>
-		<script src="phonegap.js"></script>
-		<script src="css/source-sans-pro.js"></script>
+    <link href="css/styles_new.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
 
-		<link href="css/styles.css" rel="stylesheet">
+    <title>Declaración de renta</title>
+</head>
 
-		<div class="bgimg w3-display-container w3-animate-opacity w3-text-white" style="background-image: url('forestbridge.jpg');">
-		  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-		    Declaraci&oacute;n de Renta
-		  </div>
-		  <div class="w3-display-middle">
-		    <h1 class="w3-jumbo w3-animate-top">&Uacute;timos dos digitos</h1>
-		    <hr class="w3-border-grey" style="margin:auto;width:40%">		    
-		    <input id="text_date" type="number" pattern="[0-9]*" placeholder="00" class="w3-large w3-center"  maxlength="2">
-		  </div>
-		  <div class="w3-display-bottomleft w3-padding-large">
-		    Creada por <a href="http://www.declaracionrenta.co/" target="_blank">declaracionrenta.co</a>
-		  </div>
-		</div>
+<body class="bg">
 
-	</body>
+    <div class="content">
+
+        <div>
+            <h2>Declaraci&oacute;n de renta</h2>
+        </div>
+
+        <h1>&Uacute;timos dos digitos</h1>
+        <hr class="w3-border-grey" style="">
+        <input placeholder="00" id="text_date" 
+                type="number" pattern="[0-9]*" maxlength="2"/>
+
+    </div>
+    
+    <footer>
+
+        <script src="lib/jquery-1.8.2.min.js"></script>
+        <script src="js/storage/memory-store.js"></script>
+        <script src="js/HomeView.js"></script>
+        <script src="js/main.js"></script>
+        <script src="phonegap.js"></script>
+        <script src="css/source-sans-pro.js"></script>
+    </footer>
+</body>
 </html>
