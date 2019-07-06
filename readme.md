@@ -1,3 +1,7 @@
+<img src=https://build.phonegap.com/apps/2531735/badge/1962195319/version.svg />
+<img src=https://build.phonegap.com/apps/2531735/badge/1962195319/winphone.svg />
+<img src=https://build.phonegap.com/apps/2531735/badge/1962195319/android.svg />
+
 # Vencimientos de Renta Colombia #
 
 Esta aplicacion se realizo con el fin de poder saber que fechas tienen vencimiento de acuerdo a los ultimos digitos de la cedula de ciudadania Colombiana.
